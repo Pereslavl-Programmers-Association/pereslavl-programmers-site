@@ -1,0 +1,17 @@
+[project]
+name = "pereslavl-programmers-site"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Sokolov Yaroslav",email = "yari.sokolov.2004@gmail.com"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=6.0.6,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
